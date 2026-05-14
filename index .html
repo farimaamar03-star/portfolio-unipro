@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio | Évaluation UNIPRO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <header class="fixed w-full bg-white shadow-sm z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-indigo-600">DevPortfolio</div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#hero" class="hover:text-indigo-600 transition">Accueil</a></li>
+                <li><a href="#about" class="hover:text-indigo-600 transition">À propos</a></li>
+                <li><a href="#projects" class="hover:text-indigo-600 transition">Projets</a></li>
+                <li><a href="#contact" class="hover:text-indigo-600 transition">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="pt-32 pb-20 bg-indigo-600 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Bonjour, je suis [FARIMA AMAR]</h1>
+            <p class="text-xl mb-8">Étudiant en Développement Web Frontend chez UNIPRO</p>
+            <a href="#projects" class="bg-white text-indigo-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition">Voir mes travaux</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">À propos de moi</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Passionné par la création d'interfaces modernes, j'apprends actuellement à maîtriser les outils frontend pour concevoir des sites performants et élégants.
+                    </p>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Ma Formation</h2>
+                    <div class="border-l-4 border-indigo-600 pl-4">
+                        <p class="font-bold">Module Dev Web Frontend</p>
+                        <p class="text-gray-500">UNIPRO / ALTERFANC | 2025-2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Compétences & Expériences</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-white px-6 py-2 rounded shadow font-semibold">HTML5</span>
+                <span class="bg-white px-6 py-2 rounded shadow font-semibold text-indigo-600">Tailwind CSS</span>
+                <span class="bg-white px-6 py-2 rounded shadow font-semibold">Git & GitHub</span>
+                <span class="bg-white px-6 py-2 rounded shadow font-semibold">Responsive Design</span>
+            </div>
+            <p class="text-center mt-10 text-gray-600 italic">Expérience : Projets académiques et personnels en cours.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12">Mes Projets</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+    <img src="mes images/WhatsApp Image 2026-05-14 at 17.06.01.jpeg" alt="Aperçu du portfolio" class="w-full h-full object-cover">
+</div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Landing Page Moderne</h3>
+                        <p class="text-gray-600 mb-4">Un site web responsive conçu uniquement avec HTML et Tailwind CSS.</p>
+                    </div>
+                </div>
+                <div class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center overflow-hidden">
+    <img src="mes images/WhatsApp Image 2026-05-14 at 16.48.48.jpeg" alt="Aperçu du portfolio" class="w-full h-full object-cover">
+</div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2">Portfolio Professionnel</h3>
+                        <p class="text-gray-600 mb-4">Réalisation complète pour l'évaluation N°1 du module Frontend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-50 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-8">Me contacter</h2>
+            <p class="text-gray-600 mb-8 italic">"La créativité, c'est l'intelligence qui s'amuse." - Einstein</p>
+            <a href="mailto:votremail@exemple.com" class="bg-indigo-600 text-white px-10 py-3 rounded-full font-bold shadow-lg hover:bg-indigo-700 transition">Envoyer un Message</a>
+        </div>
+    </section>
+
+    <footer class="bg-white py-10 border-t">
+        <div class="container mx-auto px-6 text-center text-gray-500">
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="#" class="hover:text-indigo-600">LinkedIn</a>
+                <a href="#" class="hover:text-indigo-600">GitHub</a>
+            </div>
+            <p>&copy; 2026 - [FARIMA AMAR] - UNIPRO / ALTERFANC</p>
+        </div>
+    </footer>
+
+</body>
+</html>
