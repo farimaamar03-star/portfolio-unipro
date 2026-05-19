@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "buildCommand": "echo 'No build needed'",
+  "buildCommand": "echo 'No build required'",
   "outputDirectory": ".",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
